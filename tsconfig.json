@@ -3,8 +3,9 @@
         "module": "commonjs",
         "target": "ES2015",
         "sourceMap": true,
-        "lib": ["es2015", "dom", "dom.iterable"]
+        "lib": ["es2015", "dom", "dom.iterable"],
+        "outDir": "dist"
     },
-    "include": ["**/*.ts"],
+    "include": ["src/**/*"],
     "exclude": ["node_modules"]
 }
